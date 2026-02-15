@@ -21,9 +21,9 @@ All vehicle data is visualized on a live interactive dashboard with AI safety fe
 ## 🖼️ Project Demo (Live Screenshots)
 
 <p align="center">
-  <img src="assets/dashboard.png" width="260"/>
-  <img src="assets/navigation.png" width="260"/>
-  <img src="assets/drowsy.png" width="260"/>
+  <img src="dashboard.png" width="260"/>
+  <img src="navigation.png" width="260"/>
+  <img src="drowsy.png" width="260"/>
 </p>
 
 <p align="center">
