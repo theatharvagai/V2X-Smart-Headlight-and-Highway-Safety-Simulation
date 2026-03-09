@@ -1,122 +1,256 @@
-# 🚗⚡ V2X Smart Highway Simulation System (v5.0)
+# 🚗⚡ V2X Smart Highway Simulation
 
-### 🌐 AI + V2X + Computer Vision + Modern UI Ecosystem
+### Real-Time Connected Vehicle Ecosystem using AI, MQTT & Computer Vision
 
 <p align="center">
-  <img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&color=00F5FF&center=true&vCenter=true&width=1000&lines=V2X+Smart+Highway+v5.0;Connected+Vehicle+Ecosystem;Glassmorphism+UI+Dashboard;Real-Time+V2X+Signal+Pulses" />
+<img src="https://readme-typing-svg.herokuapp.com?font=Orbitron&size=30&duration=3000&color=00F5FF&center=true&vCenter=true&width=1000&lines=Vehicle-to-Everything+Simulation;Connected+Smart+Transportation;AI+Safety+System;Real-Time+V2X+Network" />
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Version-5.0-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/UI-Modern%20HUD-cyan?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/AI-Drowsiness%20Detection-green?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/Protocol-MQTT-orange?style=for-the-badge" />
-</p>
-
----
-
-# 🌍 Overview
-
-The **V2X Smart Highway Simulation System v5.0** is an advanced, real-time connected vehicle ecosystem. It simulates a cooperative smart transportation network where multiple vehicle nodes communicate over MQTT to share critical safety data and telemetry.
-
-This version introduces a **Modern HUD Experience**, featuring glassmorphism design elements, real-time V2X signal visualization, and enhanced AI-driven safety protocols.
-
----
-
-# 🎥 Project Demo (Latest UI)
-
-<p align="center">
-  <img src="assets/dashboard.png" width="300" alt="Modern Dashboard"/>
-  <img src="assets/navigation.png" width="300" alt="Nav System"/>
-  <img src="assets/drowsy.png" width="300" alt="AI Safety"/>
-</p>
-
-<p align="center">
-  <sub>📊 Glassmorphism Dashboard • 📡 V2X Signal Pulses • 🚑 Emergency HUD Alerts</sub>
+<img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MQTT-Real%20Time-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/AI-Drowsiness%20Detection-green?style=for-the-badge" />
+<img src="https://img.shields.io/badge/UI-Interactive%20Dashboard-cyan?style=for-the-badge" />
 </p>
 
 ---
 
-# 🚀 New in Version 5.0 (Modernization Pass)
+# 🌍 Project Overview
 
-*   **📡 V2X Signal Visualization:** Real-time expanding pulse animations from vehicles to represent active data exchange.
-*   **🎨 Glassmorphism UI:** Semi-transparent, blurred dashboard panels and alert boxes for a high-tech cockpit feel.
-*   **🏎️ Role-Based Color Coding:** 
-    *   🔵 **Blue:** Your Vehicle (Player)
-    *   🔴 **Red:** Other Connected Vehicles
-    *   🟠 **Yellow/Orange:** Emergency Vehicles (Ambulances)
-*   **🚨 Enhanced HUD Alerts:** High-visibility pulsing alerts for **EMERGENCY BRAKING** and **VEHICLE AHEAD**.
-*   **🛣️ Service Lane Overlay:** Clear, high-impact "SERVICE LANE" text blitted directly on the infrastructure with smart opacity.
-*   **📈 Visual Speed Gauge:** Modern progress-bar style gauge replacing static text for real-time velocity monitoring.
+This project simulates a **Vehicle-to-Everything (V2X) connected highway system** where vehicles communicate in real time to improve **road safety, traffic intelligence, and autonomous decision making**.
+
+The simulation demonstrates how connected vehicles can:
+
+• Share telemetry  
+• Detect hazards  
+• Prevent collisions  
+• Cooperate with infrastructure  
+
+The system integrates **network communication, computer vision, and intelligent vehicle behaviour** into one real-time simulation environment.
 
 ---
 
-# 🔥 Core Features
+# 🧠 Core Concept
 
-## 🚗 Distributed V2X Networking
-*   **Multi-Node Sync:** Run on different systems to see real-time interaction.
-*   **Low Latency:** Optimized MQTT broadcasting for sub-100ms telemetry updates.
-*   **V2V & V2I:** Cooperative collision avoidance and smart streetlight response.
+V2X stands for:
 
-## 🧠 AI Safety Intelligence
-*   **Computer Vision:** Real-time drowsiness detection using OpenCV.
-*   **Auto-Pilot Response:** Automatic redirection to the Service Lane and emergency stopping when fatigue is detected.
-*   **Adaptive Headlights:** AI-driven High/Low beam switching based on oncoming V2X data to prevent glare.
+| Type | Description |
+|-----|-------------|
+| V2V | Vehicle to Vehicle communication |
+| V2I | Vehicle to Infrastructure communication |
+| V2P | Vehicle to Pedestrian awareness |
+| V2N | Vehicle to Network connectivity |
 
-## 🛣️ Intelligent Infrastructure
-*   **5-Lane Architecture:** 
-    *   Lane 0: Incoming/Opposite Traffic
-    *   Lane 1-3: Forward Traffic
-    *   Lane 4: **SERVICE LANE** (Emergency & Drowsy Parking)
-*   **Smart Streetlights:** Dynamically activate only when vehicles are nearby to conserve energy.
+This simulation demonstrates **V2V + V2I cooperative safety systems**.
+
+---
+
+# 🚀 Key Features
+
+## 🚗 Real-Time Multi Vehicle Simulation
+
+Multiple vehicles can run on **different machines** and synchronize via MQTT.
+
+Features include:
+
+- Real-time telemetry broadcasting
+- Vehicle position synchronization
+- Collision avoidance logic
+- Cooperative traffic flow
+
+---
+
+## 📡 V2X Network Communication
+
+Vehicles exchange information using **MQTT protocol**.
+
+Each vehicle publishes:
+
+- position
+- speed
+- lane
+- braking state
+- emergency status
+- headlight mode
+
+This allows other vehicles to **react intelligently to traffic conditions**.
+
+---
+
+## 🧠 AI Safety System
+
+The project integrates **Computer Vision based driver monitoring**.
+
+Features:
+
+- Real-time **drowsiness detection**
+- Face detection using OpenCV
+- Automatic **emergency stop**
+- Auto redirect to **service lane**
+
+This simulates how future vehicles may prevent accidents caused by driver fatigue.
+
+---
+
+## 🛣️ Intelligent Highway Infrastructure
+
+The highway simulation contains:
+
+• 5-lane road architecture  
+• incoming traffic lane  
+• forward traffic lanes  
+• emergency service lane  
+
+Smart infrastructure features:
+
+- Dynamic streetlights
+- Emergency lane routing
+- collision alert system
+
+---
+
+## 🚑 Emergency Vehicle System
+
+Users can spawn **ambulances** inside the simulation.
+
+Emergency vehicles:
+
+- override traffic priority
+- influence nearby vehicles
+- demonstrate cooperative traffic behavior
+
+---
+
+## 📊 Modern Interactive Dashboard
+
+The simulation includes a real-time UI dashboard displaying:
+
+- speed gauge
+- vehicle status
+- safety alerts
+- navigation system
+- camera feed for AI monitoring
+
+---
+
+# 🎮 Controls
+
+| Control | Action |
+|------|------|
+| Steer Left | Change lane left |
+| Steer Right | Change lane right |
+| Speed Up | Increase vehicle speed |
+| Speed Down | Reduce vehicle speed |
+| X | Simulate drowsiness |
+| Call Ambulance | Spawn emergency vehicle |
+| Call Incoming | Spawn opposite traffic |
+
+---
+
+# ⚙️ System Architecture
+
+```
+Vehicle Node
+     │
+     │  MQTT Telemetry
+     ▼
+MQTT Broker
+     │
+     ▼
+Other Vehicle Nodes
+```
+
+Each vehicle acts as a **distributed network node** broadcasting telemetry and reacting to other vehicles.
 
 ---
 
 # 🛠️ Tech Stack
 
-| Category             | Technology                                  |
-| -------------------- | ------------------------------------------- |
-| Language             | 🐍 Python 3.10+                             |
-| Graphics Engine      | 🎮 Pygame (Modern Hardware Accel)           |
-| AI & CV              | 🧠 OpenCV + NumPy                           |
-| Networking           | 📡 MQTT (EMQX Cloud Broker)                 |
-| UI Design            | ✨ Glassmorphism & HUD Principles           |
+| Component | Technology |
+|----------|-----------|
+| Language | Python |
+| Graphics | Pygame |
+| Computer Vision | OpenCV |
+| AI Processing | NumPy |
+| Networking | MQTT |
+| Protocol | EMQX Broker |
 
 ---
 
-# 🎮 Controls & Interaction
+# 📦 Installation
 
-| Control             | Function                   |
-| ------------------- | -------------------------- |
-| **Steer Buttons**   | Shift between 5 dynamic lanes |
-| **Speed Gauges**    | Adjust target cruise speed |
-| **X Key**           | Force-trigger Drowsiness (Simulated) |
-| **🚑 Call AMB**     | Spawn an intelligent Emergency Vehicle |
-| **🗺️ Map Interaction** | Click to Expand or inject obstacles |
+Clone the repository
 
----
+```
+git clone https://github.com/YOUR_USERNAME/v2x-smart-highway.git
+cd v2x-smart-highway
+```
 
-# ⚙️ Quick Start
+Install dependencies
 
-```bash
-# 1. Install Dependencies
+```
 pip install pygame opencv-python numpy paho-mqtt
+```
 
-# 2. Launch Simulation
+Run the simulation
+
+```
 python v2x_unified_complete.py
 ```
 
 ---
 
-# 👨‍💻 Author
+# 🧪 Running Multi-Vehicle Simulation
 
-**Atharva Gai**
-M.Tech CSE — VIT Vellore
-*Specializing in Intelligent Transportation & Distributed V2X Systems*
+To simulate multiple vehicles:
 
-🔗 [GitHub](https://github.com/theatharvagai) • [LinkedIn](https://linkedin.com/in/atharvagai)
+Run the program on **multiple systems**.
+
+Each system should enter a different **Vehicle ID**.
+
+Example:
+
+```
+CAR1
+CAR2
+CAR3
+AMB1
+```
+
+All vehicles will automatically synchronize through the MQTT broker.
 
 ---
 
-# ⭐ Support the Research
-If you find this V2X framework useful for your research or project, please consider giving it a star!
+# 🔬 Future Improvements
+
+Possible future expansions:
+
+• reinforcement learning traffic control  
+• smart traffic signals  
+• vehicle platooning  
+• autonomous navigation  
+• edge computing integration  
+• real map integration  
+
+---
+
+# 👨‍💻 Author
+
+**Atharva Gai**  
+M.Tech CSE — VIT Vellore  
+
+Specializing in:
+
+• Intelligent Transportation Systems  
+• Distributed Systems  
+• AI powered safety systems  
+
+GitHub: https://github.com/theatharvagai  
+
+---
+
+# ⭐ Support
+
+If you find this project useful:
+
+Give it a ⭐ on GitHub.
